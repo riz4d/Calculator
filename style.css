@@ -1,12 +1,13 @@
 .cal{
-    position: absolute;
-    top: calc(100% + 1.5rem);
-    height: 5px;
-    width: 3rem;
-    background: #0062b9;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 5px; 
+    width: 296px;
+    height: 326px;
+    background: #ffffff;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-left: 28%;
+    margin-top: 10%;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 #screen{
     width: 294px;
