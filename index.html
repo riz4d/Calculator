@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>
+        <div class="cal">
+            <div>
+                <input type="text" id="screen">
+            </div>
+            <div>
+                <button onclick="clearDisplay()" class="buttn">c</button>
+                <button onclick="bclick('(')" class="buttn">(</button>
+                <button onclick="bclick(')')" class="buttn">)</button>
+                <button onclick="bclick('%')" class="buttn">%</button>
+            </div>
+            <div class="key">
+                <button onclick="bclick(7)" class="buttn">7</button>
+                <button onclick="bclick(8)" class="buttn">8</button>
+                <button onclick="bclick(9)" class="buttn">9</button>
+                <button onclick="bclick('/')" class="buttn">/</button>
+            </div>
+            <div class="key">
+                <button onclick="bclick(4)" class="buttn">4</button>
+                <button onclick="bclick(5)" class="buttn">5</button>
+                <button onclick="bclick(6)" class="buttn">9</button>
+                <button onclick="bclick('*')" class="buttn">*</button>
+            </div>
+            <div class="key">
+                <button onclick="bclick(1)" class="buttn">1</button>
+                <button onclick="bclick(2)" class="buttn">2</button>
+                <button onclick="bclick(3)" class="buttn">3</button>
+                <button onclick="bclick('+')" class="buttn">+</button>
+            </div>
+            <div class="key">
+                <button onclick="equalclick('=')" class="buttn">=</button>
+                <button onclick="bclick(0)" class="buttn">0</button>
+                <button onclick="bclick('.')" class="buttn">.</button>
+                <button onclick="bclick('-')" class="buttn">-</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
